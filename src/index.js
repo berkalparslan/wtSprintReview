@@ -1,7 +1,6 @@
 const prompt = require("prompt-sync")();
 
-const number = parseInt(prompt("Kaç sayıya kadar Fibonacci dizisi oluşturulsun? "));
-console.log("🚀 ~ number:", number)
+const number = parseInt(prompt("Kaç sayıya kadar Fibonacci dizisi oluşturulsun? : "));
 
 function fibonacci(n) {
     const fib = [0, 1];
