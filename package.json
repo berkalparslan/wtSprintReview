@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "sprint review week project 1",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js"
@@ -11,6 +10,7 @@
   "author": "berk",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^5.3.0"
+    "chalk": "^5.3.0",
+    "prompt-sync": "^4.2.0"
   }
 }

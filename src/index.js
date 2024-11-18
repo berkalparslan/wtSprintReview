@@ -1,6 +1,16 @@
-import chalk from "chalk";
+const prompt = require("prompt-sync")();
 
-console.log(chalk.green("This is a green text!"));
-console.log(chalk.blue("This is a blue text!"));
+const number = parseInt(prompt("Kaç sayıya kadar Fibonacci dizisi oluşturulsun? "));
+console.log("🚀 ~ number:", number)
 
-console.log("edit from web");
+function fibonacci(n) {
+    const fib = [0, 1];
+
+    for (let i = 2; i < n; i++) {
+        fib[i] = fib[i - 1] + fib[i - 2];
+    }
+    return fib;
+}
+
+const result = fibonacci(number);
+console.log("🚀 ~ result:", result)
