@@ -20,8 +20,8 @@ const finallerdekiGolSayilari = (fifaData) => {
       golSayilari[awayTeam] = awayGoals;
     }
   });
-  return golSayilari;
+
+  return golSayilari; 
 };
 
 const result = finallerdekiGolSayilari(fifaData);
-console.log(result);
