@@ -35,8 +35,9 @@ function randomNumber() {
 }
   
 const result = macOzeti("Real Madrid", "Barcelona", 4);
-console.log("🚀 ~ result:", result)
-
+console.log("🚀 ~ result:", result);
+let d = new Date();
+alert("Today's date is " + d);
 /* Bu satırdan sonraki satırları silmeyin! */
-module.exports = macOzeti;
+// module.exports = macOzeti;
   

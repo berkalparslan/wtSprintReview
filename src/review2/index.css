@@ -1,0 +1,17 @@
+body {
+    border: 1rem solid red;
+    padding: 0.5rem;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+h1:hover {
+    color: orange;
+}
+
+nav {
+    text-align: center;
+}

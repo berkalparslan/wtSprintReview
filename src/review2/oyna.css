@@ -1,0 +1,29 @@
+body {
+    border: 1rem solid blue;
+    padding: 0.5rem;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+h1:hover {
+    color: orange;
+}
+
+.btn-container {
+    text-align: center;
+}
+
+div.btn-container input {
+    background: center / contain no-repeat url("../../assets/basket.png"),
+            #eee 35%;
+    color: #000000;
+    cursor: pointer;
+    font-weight: bold;
+    height: 200px;
+    padding-bottom: 2px;
+    width: 200px;
+    border: none;
+}
